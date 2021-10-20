@@ -44,6 +44,10 @@ screen mainscreen;
 
 int main()
 {
+symbol d(" ________  "," ||     |  "," ||     |  "," ||     |  "," ||     |  "," ||_____|  ");
+    mainscreen.add(d);
+    mainscreen.add(d);
+    
     mainscreen.print();
     return 0;
 }
