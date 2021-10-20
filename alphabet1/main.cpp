@@ -45,9 +45,9 @@ screen mainscreen;
 int main()
 {
     symbol a(" _____  ", " ||   | ", " ||___| ", " ||   | ", " ||   | ", " ||   | ");
+    symbol b(" _____  ", " ||   | ", " ||___| ", " ||   | ", " ||   | ", " ||___| ");
     mainscreen.add(a);
-    mainscreen.add(a);
-
+    mainscreen.add(b);
     mainscreen.print();
     return 0;
 }
