@@ -49,11 +49,13 @@ int main()
     symbol c("  ____ ", " ||    ", " ||    ", " ||    ", " ||    ", " ||___ ");
     symbol e(" _____ ", " ||    ", " ||___ ", " ||    ", " ||    ", " ||___ ");
     symbol g("  ____  ", " ||     ", " ||     ", " || __  ", " ||   | ", " ||___| ");
+    symbol i(" ____ ", "  ||  ", "  ||  ", "  ||  ", "  ||  ", " _||_ ");
     mainscreen.add(a);
     mainscreen.add(b);
     mainscreen.add(c);
     mainscreen.add(e);
     mainscreen.add(g);
+    mainscreen.add(i);
     mainscreen.print();
     return 0;
 }
