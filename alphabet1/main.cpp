@@ -44,7 +44,6 @@ screen mainscreen;
 
 int main()
 {
-
     symbol a(" _____  ", " ||   | ", " ||___| ", " ||   | ", " ||   | ", " ||   | ");
     symbol b(" _____  ", " ||   | ", " ||___| ", " ||   | ", " ||   | ", " ||___| ");
     symbol c("  ____ ", " ||    ", " ||    ", " ||    ", " ||    ", " ||___ ");
@@ -52,6 +51,7 @@ int main()
     symbol g("  ____  ", " ||     ", " ||     ", " || __  ", " ||   | ", " ||___| ");
     symbol i(" ____ ", "  ||  ", "  ||  ", "  ||  ", "  ||  ", " _||_ ");
     symbol k(" __  _  ", " || /   ", " ||/    ", " ||\\    ", " || \\   ", " ||  \\_ ");
+    symbol m(" __    _ ", " ||\\  /| ", " || \\/ | ", " ||    | ", " ||    | ", " ||    | ");
     mainscreen.add(a);
     mainscreen.add(b);
     mainscreen.add(c);
@@ -59,6 +59,7 @@ int main()
     mainscreen.add(g);
     mainscreen.add(i);
     mainscreen.add(k);
+    mainscreen.add(m);
     mainscreen.print();
     return 0;
 }
