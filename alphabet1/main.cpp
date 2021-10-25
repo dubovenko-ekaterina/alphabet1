@@ -44,28 +44,10 @@ screen mainscreen;
 
 int main()
 {
-    symbol a(" _____  ", " ||   | ", " ||___| ", " ||   | ", " ||   | ", " ||   | ");
-    symbol b(" _____  ", " ||   | ", " ||___| ", " ||   | ", " ||   | ", " ||___| ");
-    symbol c("  ____ ", " ||    ", " ||    ", " ||    ", " ||    ", " ||___ ");
-    symbol e(" _____ ", " ||    ", " ||___ ", " ||    ", " ||    ", " ||___ ");
-    symbol g("  ____  ", " ||     ", " ||     ", " || __  ", " ||   | ", " ||___| ");
-    symbol i(" ____ ", "  ||  ", "  ||  ", "  ||  ", "  ||  ", " _||_ ");
-    symbol k(" __  _  ", " || /   ", " ||/    ", " ||\\    ", " || \\   ", " ||  \\_ ");
-    symbol m(" __    _ ", " ||\\  /| ", " || \\/ | ", " ||    | ", " ||    | ", " ||    | ");
-    symbol o("  ____  ", " |    | ", " |    | ", " |    | ", " |    | ", " |____| ");
-    symbol q("  ____    ", " |    |   ", " |    |   ", " |    |   ", " |    |   ", " |____|__ ");
-    symbol s("  ____  ", " |      ", " |____  ", "      | ", "      | ", "  ____| ");
-    mainscreen.add(a);
-    mainscreen.add(b);
-    mainscreen.add(c);
-    mainscreen.add(e);
-    mainscreen.add(g);
-    mainscreen.add(i);
-    mainscreen.add(k);
-    mainscreen.add(m);
-    mainscreen.add(o);
-    mainscreen.add(q);
-    mainscreen.add(s);
+    symbol p("_____", "||        |", "||____|", "||         ", "||         ", "||         ");
+    
+    mainscreen.add(p);
+    mainscreen.add(p);
     mainscreen.print();
     return 0;
 }
