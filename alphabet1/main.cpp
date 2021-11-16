@@ -54,6 +54,7 @@ int main()
     symbol i(" ____ ", "  ||  ", "  ||  ", "  ||  ", "  ||  ", " _||_ ");
     symbol j("   __ ", "   || ", "   || ", "   || ", "|  || ", "|__|| ");
     symbol k(" __  _  ", " || /   ", " ||/    ", " ||\\    ", " || \\   ", " ||  \\_ ");
+    symbol l(" __     ", " ||     ", " ||     ", " ||     ", " ||     ", " ||____ ");
     symbol m(" __    _ ", " ||\\  /| ", " || \\/ | ", " ||    | ", " ||    | ", " ||    | ");
     symbol o("  ____  ", " |    | ", " |    | ", " |    | ", " |    | ", " |____| ");
     symbol q("  ____    ", " |    |   ", " |    |   ", " |    |   ", " |    |   ", " |____|__ ");
@@ -68,6 +69,7 @@ int main()
     mainscreen.add(i);
     mainscreen.add(j);
     mainscreen.add(k);
+    mainscreen.add(l);
     mainscreen.add(m);
     mainscreen.add(o);
     mainscreen.add(q);
