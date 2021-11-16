@@ -44,12 +44,36 @@ screen mainscreen;
 
 int main()
 {
-    symbol l("||       ", "||       ", "||       ", "||       ", "||       ", "||____");
-   
+    symbol a(" _____  ", " ||   | ", " ||___| ", " ||   | ", " ||   | ", " ||   | ");
+    symbol b(" _____  ", " ||   | ", " ||___| ", " ||   | ", " ||   | ", " ||___| ");
+    symbol c("  ____ ", " ||    ", " ||    ", " ||    ", " ||    ", " ||___ ");
+    symbol e(" _____ ", " ||    ", " ||___ ", " ||    ", " ||    ", " ||___ ");
+    symbol f(" _____ ", " ||    ", " ||___ ", " ||    ", " ||    ", " ||    ");
+    symbol g("  ____  ", " ||     ", " ||     ", " || __  ", " ||   | ", " ||___| ");
+    symbol h(" __   _ ", " ||   | ", " ||   | ", " ||___| ", " ||   | ", " ||   | ");
+    symbol i(" ____ ", "  ||  ", "  ||  ", "  ||  ", "  ||  ", " _||_ ");
+    symbol j("   __ ", "   || ", "   || ", "   || ", "|  || ", "|__|| ");
+    symbol k(" __  _  ", " || /   ", " ||/    ", " ||\\    ", " || \\   ", " ||  \\_ ");
+    symbol l(" __     ", " ||     ", " ||     ", " ||     ", " ||     ", " ||____ ");
+    symbol m(" __    _ ", " ||\\  /| ", " || \\/ | ", " ||    | ", " ||    | ", " ||    | ");
+    symbol o("  ____  ", " |    | ", " |    | ", " |    | ", " |    | ", " |____| ");
+    symbol q("  ____    ", " |    |   ", " |    |   ", " |    |   ", " |    |   ", " |____|__ ");
+    symbol s("  ____  ", " |      ", " |____  ", "      | ", "      | ", "  ____| ");
+    mainscreen.add(a);
+    mainscreen.add(b);
+    mainscreen.add(c);
+    mainscreen.add(e);
+    mainscreen.add(f);
+    mainscreen.add(g);
+    mainscreen.add(h);
+    mainscreen.add(i);
+    mainscreen.add(j);
+    mainscreen.add(k);
     mainscreen.add(l);
-    mainscreen.add(l);
+    mainscreen.add(m);
+    mainscreen.add(o);
+    mainscreen.add(q);
+    mainscreen.add(s);
     mainscreen.print();
-    return 0;
-}
 }
 
