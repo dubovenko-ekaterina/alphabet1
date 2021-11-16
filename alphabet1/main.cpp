@@ -50,6 +50,7 @@ int main()
     symbol e(" _____ ", " ||    ", " ||___ ", " ||    ", " ||    ", " ||___ ");
     symbol f(" _____ ", " ||    ", " ||___ ", " ||    ", " ||    ", " ||    ");
     symbol g("  ____  ", " ||     ", " ||     ", " || __  ", " ||   | ", " ||___| ");
+    symbol h(" __   _ ", " ||   | ", " ||   | ", " ||___| ", " ||   | ", " ||   | ");
     symbol i(" ____ ", "  ||  ", "  ||  ", "  ||  ", "  ||  ", " _||_ ");
     symbol k(" __  _  ", " || /   ", " ||/    ", " ||\\    ", " || \\   ", " ||  \\_ ");
     symbol m(" __    _ ", " ||\\  /| ", " || \\/ | ", " ||    | ", " ||    | ", " ||    | ");
@@ -62,6 +63,7 @@ int main()
     mainscreen.add(e);
     mainscreen.add(f);
     mainscreen.add(g);
+    mainscreen.add(h);
     mainscreen.add(i);
     mainscreen.add(k);
     mainscreen.add(m);
